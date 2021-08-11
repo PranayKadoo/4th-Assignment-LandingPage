@@ -1,0 +1,72 @@
+body, html{
+    background-color: aliceblue;
+}
+.parent1{
+    margin-top: 0;
+    background-image: url("images/pic1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    min-height:400px;
+    min-width: 90vw; }
+.child1{
+    color:rgb(68, 248, 68);
+    font-family: "papyrus";
+    position: absolute;
+    right: 8%;
+    left: 20%;
+    top:6em;   
+}
+.child2{
+    color:rgb(201, 42, 37);
+    font-family: "papyrus";
+    position: absolute;
+    left: 50%;
+    right: 5%;
+    top:13em
+}
+.fonth1{
+    font-size: calc(54px + (54 - 10) * ((100vw - 300px) / (1600 - 300)));
+    border-radius: 10px;
+    text-align: center;
+}
+.fonth2{
+    font-size: calc(24px + (24 - 10) * ((100vw - 300px) / (1600 - 300)));
+    border-radius: 10px;
+    text-align: center;
+}
+.fonth3{
+    text-align: center;
+}
+a{
+    text-align: center;
+}
+
+.my-class1{
+margin-right: 0;
+padding:0;
+}
+.my-class2{
+    margin-right: 0;
+    padding:0;
+    }
+ .my-class3 {
+        background: rgb(253, 189, 160);
+        text-align: center;
+        font-family: Papyrus;
+        font-size: calc(20px + (20 - 7) * ((100vw - 300px) / (1600 - 300)));
+    }
+.container-1{
+    text-align: center;
+}
+.container-2{
+    text-align: center;
+
+    padding: 20px; margin: 20px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
